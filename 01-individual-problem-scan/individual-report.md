@@ -4,10 +4,15 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...):
+- Họ và tên: Ngô Tuấn Tùng
+- Mã học viên: 2A202602826
+- Vai trò / bối cảnh (VD: sinh viên năm X, intern PM, ...): Sinh viên năm 2, Intern AI Engineer.
 - Công việc hằng tuần (3-5 gạch đầu dòng để soi problem):
+    - Các công việc freelance ở công ty.
+    - Công việc cá nhân.
+    - Việc học tập hằng tuần.
+    - Dạy thêm bên ngoài.
+      
 
 ---
 
@@ -17,28 +22,24 @@
 
 | # | Lăng kính (Lặp lại / Tốn thời gian / AI có thể tốt hơn / Pain từ người khác) | Problem quan sát được | Ai chịu ảnh hưởng? | Dấu hiệu thật (số + bằng chứng) |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
-| 9 | | | | |
-| 10 | | | | |
+| 1 | Lặp lại | Soạn bài tập trắc nghiệm cho học sinh dạy thêm. | Bản thân, học sinh | Mất 2 tiếng/tuần để bịa và gõ 30 câu hỏi, tuần nào cũng phải làm. |
+| 2 | Tốn thời gian | Đọc và tóm tắt các paper/tài liệu chuyên ngành dài ngoằng cho task intern. | Bản thân | Mất 3-4 tiếng/tuần đọc 2-3 paper (10-15 trang/bản) nhưng chỉ chắt lọc được 1-2 ý dùng được. |
+| 3 | AI có thể tốt hơn | Viết các đoạn code tiền xử lý dữ liệu (data cleaning) cơ bản. | Bản thân | Lặp lại 3-4 lần/tuần, mỗi lần mất 30-45 phút gõ mấy hàm pandas quen thuộc. |
+| 4 | Pain từ người khác | Học sinh nhắn tin hỏi bài cũ, hỏi các bài tập cơ bản vào buổi tối. | Bản thân, học sinh | Nhận 10-15 tin nhắn/tuần vào buổi tối, mất 45 phút gõ text giải thích từng bước trên điện thoại. |
+| 5 | Tốn thời gian | Gom nhặt hóa đơn, chi tiêu từ Momo/Banking để ghi chép vào file quản lý tài chính cá nhân. | Bản thân | Mất 1 tiếng/tuần vào tối Chủ nhật để dò lại lịch sử giao dịch và nhập tay vào Notion. |
+| 6 | Lặp lại | Viết email báo cáo tiến độ (Weekly Report) cho anh Mentor ở công ty. | Bản thân, Mentor | Mất 30 phút chiều thứ 6 hàng tuần để nhớ lại xem tuần này làm được những gì rồi gõ thành gạch đầu dòng. |
 
 > Gợi ý tự soi: tuần trước mất nhiều thời gian nhất vào việc gì? Việc gì hay trì hoãn? Người khác hay hỏi lại câu gì? Workflow nào ai cũng biết là chậm?
 
 **AI đã dùng ở Phase 1 (nếu có):**
-- Prompt đã hỏi:
-- Ý dùng được:
-- Ý bỏ vì không phải pain thật:
+- Prompt đã hỏi: Có thể gợi ý cho sinh viên năm 2 kiêm intern AI một số việc nhàm chán lặp lại không?
+- Ý dùng được: Chuyện viết code boilerplate data cleaning.
+- Ý bỏ vì không phải pain thật: AI bảo tự động hóa việc đi học trên trường (cái này bắt buộc phải lên lớp điểm danh nên không làm được).
 
 **Self-check Phase 1:**
-- [ ] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
-- [ ] Dùng ít nhất 3/4 lăng kính
-- [ ] Không có dòng chung chung kiểu "mất nhiều thời gian"
+- [x] Đủ 5+ dòng, mỗi dòng có actor + số đo cụ thể
+- [x] Dùng ít nhất 3/4 lăng kính
+- [x] Không có dòng chung chung kiểu "mất nhiều thời gian"
 
 ---
 
@@ -50,195 +51,43 @@ Giữ bài nào: actor cụ thể, workflow vẽ được 3-7 bước, bottlenec
 
 | Rank | Problem (copy từ bảng scan) | Vì sao chọn (2-3 ý) | Điều còn chưa chắc |
 |---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 | Soạn bài tập trắc nghiệm cho học sinh dạy thêm. | Tốn nhiều thời gian cuối tuần nhất, rất nhàm chán; Đầu ra rõ ràng (text, câu hỏi). | Sợ AI bịa kiến thức sai (hallucination) trong đáp án các môn tự nhiên. |
+| 2 | Đọc và tóm tắt paper/tài liệu cho task intern. | Mất rất nhiều não và sức lực; Workflow đọc tài liệu rất dễ dùng AI can thiệp. | Tài liệu chuyên ngành mới AI có hiểu đúng bối cảnh không? |
+| 3 | Viết code tiền xử lý dữ liệu (data cleaning). | Việc này lặp đi lặp lại rất mỏi tay; AI sinh code cơ bản bây giờ làm rất tốt. | Format dữ liệu mỗi lúc một khác, lỡ AI sinh code bị lỗi thì mất công debug hơn tự viết. |
 
 ### 2.2. Problem Cards chi tiết (lặp lại cho cả 3 cards)
 
 ---
 
-#### Problem Card #1 — [Tên problem]
+#### Problem Card #1 — Soạn đề trắc nghiệm gia sư
 
 ```text
-Problem 1 câu:
+Problem 1 câu: Mất quá nhiều thời gian cuối tuần để tự chế và gõ các câu hỏi trắc nghiệm ôn tập cho học sinh dạy thêm.
 
-Actor:
+Actor: Tuấn Tùng (Gia sư)
 
-Thời điểm / bối cảnh:
+Thời điểm / bối cảnh: Tối thứ 7 hàng tuần, chuẩn bị tài liệu cho buổi dạy Chủ nhật.
 
 Current workflow 3-7 bước:
-1.
-2.
-3.
-4.
-5.
+1. Mở SGK xem tuần này học đến bài nào.
+2. Lên Google tìm các đề trắc nghiệm cũ của bài đó.
+3. Copy/paste câu hỏi ưng ý về file Word.
+4. Tự chế lại số liệu hoặc đảo đáp án để tránh học sinh chép mạng.
+5. Format lại file, lưu PDF và in ra.
 
-Bottleneck:
+Bottleneck: Bước 2 và Bước 4 (tìm mỏi mắt mới được câu hay, chế lại số liệu dễ bị sai hoặc mất thời gian giải thử lại).
 
-Impact:
+Impact: Mất trắng 2 tiếng buổi tối cuối tuần đáng ra để đi chơi hoặc nghỉ ngơi.
 
-Success metric:
+Success metric: Rút ngắn thời gian ra đề từ 120 phút xuống còn 15-20 phút.
 
-Non-AI alternative:
+Non-AI alternative: Đi xin file đề của các anh chị gia sư khóa trước hoặc ra hiệu sách mua cuốn bài tập về photo.
 
-AI hypothesis:
+AI hypothesis: Đưa tên bài học và độ khó vào prompt, AI sẽ tự động sinh ra 30 câu hỏi trắc nghiệm kèm đáp án và lời giải chi tiết.
 
 Quick gut:
 [ ] No AI / process fix
 [ ] Rule
-[ ] Workflow
+[x] Workflow
 [ ] Agent
 [ ] Chưa biết
-```
-
-**Draft workflow Card #1** (ASCII / Mermaid / ảnh đính kèm):
-
-```text
-CURRENT STATE — ___ phút
-
-[1 ...: __'] → [2 ...: __'] → [3 ...: __'] → [4 ...: __']  <-- bottleneck
-
-FUTURE STATE — ___ phút
-
-[1 ...: __'] → [2 ...: __'] → [3 ... review: __']  <-- human boundary
-
-Fallback: nếu AI sai thì ...
-```
-
-File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png`
-
----
-
-#### Problem Card #2 — [Tên problem]
-
-```text
-Problem 1 câu:
-
-Actor:
-
-Thời điểm / bối cảnh:
-
-Current workflow 3-7 bước:
-1.
-2.
-3.
-4.
-5.
-
-Bottleneck:
-
-Impact:
-
-Success metric:
-
-Non-AI alternative:
-
-AI hypothesis:
-
-Quick gut:
-[ ] No AI / process fix
-[ ] Rule
-[ ] Workflow
-[ ] Agent
-[ ] Chưa biết
-```
-
-**Draft workflow Card #2:**
-
-```text
-CURRENT STATE — ___ phút
-
-[1 ...] → [2 ...] → [3 ...]  <-- bottleneck
-
-FUTURE STATE — ___ phút
-
-[1 ...] → [2 ...] → [3 ... review]  <-- human boundary
-
-Fallback: ...
-```
-
-File đính kèm: `01-individual-problem-scan-workflow-card-2.png`
-
----
-
-#### Problem Card #3 — [Tên problem]
-
-```text
-Problem 1 câu:
-
-Actor:
-
-Thời điểm / bối cảnh:
-
-Current workflow 3-7 bước:
-1.
-2.
-3.
-4.
-5.
-
-Bottleneck:
-
-Impact:
-
-Success metric:
-
-Non-AI alternative:
-
-AI hypothesis:
-
-Quick gut:
-[ ] No AI / process fix
-[ ] Rule
-[ ] Workflow
-[ ] Agent
-[ ] Chưa biết
-```
-
-**Draft workflow Card #3:**
-
-```text
-CURRENT STATE — ___ phút
-
-[1 ...] → [2 ...] → [3 ...]  <-- bottleneck
-
-FUTURE STATE — ___ phút
-
-[1 ...] → [2 ...] → [3 ... review]  <-- human boundary
-
-Fallback: ...
-```
-
-File đính kèm: `01-individual-problem-scan-workflow-card-3.png`
-
----
-
-### 2.3. Card muốn pitch nhất (chuẩn bị 2 phút)
-
-**Card tôi muốn pitch nhất:**
-
-```text
-
-```
-
-**Vì sao (2-3 câu: workflow gì, số đo gì, impact gì):**
-
-```text
-
-```
-
-**Câu hỏi tôi muốn nhóm challenge (1-2 câu hỏi đúng chỗ yếu):**
-
-```text
-
-```
-
-**AI phản biện Card (nếu có):**
-- Điểm yếu AI chỉ ra:
-- Tôi sửa gì:
-
-### Self-check nộp phần 01
-- [ ] Có 5+ problems + top 3 Cards đủ field
-- [ ] Mỗi Card có workflow trước/sau + bottleneck + metric + fallback
-- [ ] Đã chọn 1 card pitch + câu hỏi challenge
