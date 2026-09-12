@@ -110,7 +110,7 @@ FUTURE STATE — 25 phút
 Fallback: Nếu AI đưa cách sửa sai logic hoặc code vẫn lỗi, tôi sẽ bỏ qua gợi ý và tự tra Google debug theo cách cũ.
 ```
  
-File đính kèm (nếu vẽ riêng): 01-individual-problem-scan-workflow-card-1.png 
+File đính kèm (nếu vẽ riêng): `01-individual-problem-scan-workflow-card-1.png `
  
 --- 
  
@@ -167,7 +167,7 @@ Fallback: Nếu AI chém gió tóm tắt sai kiến thức lõi, tôi bỏ qua k
 
 ```
  
-File đính kèm: 01-individual-problem-scan-workflow-card-2.png 
+File đính kèm: `01-individual-problem-scan-workflow-card-2.png` 
  
 --- 
  
